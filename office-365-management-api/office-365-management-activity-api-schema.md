@@ -58,7 +58,7 @@ This article provides details on the Common schema as well as service-specific s
 |[Compliance connector schema](#compliance-connector-schema)|Extends the Common schema with the properties specific to importing non-Microsoft data by using data connectors.|
 |[SystemSync schema](#systemsync-schema)|Extends the Common schema with the properties specific to data ingested via SystemSync.|
 |[Viva Goals schema](#viva-goals-schema)|Extends the Common schema with the properties specific to all Viva Goals events.|
-|[Microsoft Planner schema](#microsoft-planner-schema)|Extends the Common schema with the properties specific to Microsoft Planner events.|
+|[Microsoft Planner schema (Coming soon)](#microsoft-planner-schema)|Extends the Common schema with the properties specific to Microsoft Planner events.|
 
 ## Common schema
 
@@ -2029,7 +2029,7 @@ The audit records for events related to Viva Goals use this schema (in addition 
 |ItemDetails |Collection(Common.NameValuePair) |No |Additional properties about the object that was modified.|
 
 
-## Microsoft Planner schema
+## <a name="microsoft-planner-schema"></a>Microsoft Planner schema (Coming soon)
 
 Microsoft Planner overwrites the definition of ObjectId and ResultStatus in the [Common schema](#common-schema). Microsoft Planner's ObjectId definition is bound to each Microsoft Planner's record type and will be illustrated individually.
 
